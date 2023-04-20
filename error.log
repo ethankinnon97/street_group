@@ -1,0 +1,22 @@
+[Thu Apr 20 16:56:14.566364 2023] [mpm_event:notice] [pid 2031:tid 140370639789120] AH00489: Apache/2.4.41 (Ubuntu) configured -- resuming normal operations
+[Thu Apr 20 16:56:14.566541 2023] [core:notice] [pid 2031:tid 140370639789120] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Apr 20 16:57:25.532165 2023] [mpm_event:notice] [pid 2031:tid 140370639789120] AH00491: caught SIGTERM, shutting down
+[Thu Apr 20 16:57:25.656511 2023] [mpm_prefork:notice] [pid 12752] AH00163: Apache/2.4.41 (Ubuntu) configured -- resuming normal operations
+[Thu Apr 20 16:57:25.656675 2023] [core:notice] [pid 12752] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Apr 20 16:57:26.342399 2023] [mpm_prefork:notice] [pid 12752] AH00169: caught SIGTERM, shutting down
+[Thu Apr 20 16:57:26.541561 2023] [mpm_prefork:notice] [pid 12817] AH00163: Apache/2.4.41 (Ubuntu) configured -- resuming normal operations
+[Thu Apr 20 16:57:26.541634 2023] [core:notice] [pid 12817] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Apr 20 17:09:22.763757 2023] [mpm_prefork:notice] [pid 12817] AH00169: caught SIGTERM, shutting down
+[Thu Apr 20 17:09:23.001398 2023] [mpm_prefork:notice] [pid 15146] AH00163: Apache/2.4.41 (Ubuntu) configured -- resuming normal operations
+[Thu Apr 20 17:09:23.001491 2023] [core:notice] [pid 15146] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Apr 20 17:32:05.479776 2023] [mpm_prefork:notice] [pid 15146] AH00171: Graceful restart requested, doing restart
+[Thu Apr 20 17:32:05.804529 2023] [mpm_prefork:notice] [pid 15146] AH00163: Apache/2.4.41 (Ubuntu) configured -- resuming normal operations
+[Thu Apr 20 17:32:05.804551 2023] [core:notice] [pid 15146] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Apr 20 18:19:05.718950 2023] [php7:error] [pid 25714] [client 86.170.136.198:49929] PHP Fatal error:  Class declarations may not be nested in /var/www/html/myProject/app/Http/Controllers/FormController.php on line 13, referer: http://77.68.99.68/form
+[Thu Apr 20 18:24:04.336981 2023] [php7:error] [pid 19488] [client 86.170.136.198:50165] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 78516224 bytes) in /var/www/html/myProject/app/Http/Controllers/FormController.php on line 13, referer: http://77.68.99.68/form
+[Thu Apr 20 18:24:05.451675 2023] [php7:error] [pid 19487] [client 86.170.136.198:50170] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 66654208 bytes) in /var/www/html/myProject/app/Http/Controllers/FormController.php on line 13, referer: http://77.68.99.68/form
+[Thu Apr 20 18:24:05.514622 2023] [php7:error] [pid 19489] [client 86.170.136.198:50171] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 66654208 bytes) in /var/www/html/myProject/app/Http/Controllers/FormController.php on line 13, referer: http://77.68.99.68/form
+[Thu Apr 20 18:25:50.557956 2023] [php7:error] [pid 19490] [client 86.170.136.198:50269] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 66654208 bytes) in /var/www/html/myProject/app/Http/Controllers/FormController.php on line 13, referer: http://77.68.99.68/form
+[Thu Apr 20 18:26:22.003371 2023] [php7:error] [pid 25714] [client 86.170.136.198:50305] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 66654208 bytes) in /var/www/html/myProject/app/Http/Controllers/FormController.php on line 13, referer: http://77.68.99.68/form
+[Thu Apr 20 18:46:56.812085 2023] [php7:error] [pid 19489] [client 86.170.136.198:51335] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /var/www/html/myProject/app/Http/Controllers/FormController.php on line 204, referer: http://77.68.99.68/form
+[Thu Apr 20 19:43:01.987055 2023] [php7:error] [pid 19486] [client 86.170.136.198:54025] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /var/www/html/myProject/app/Http/Controllers/FormController.php on line 48, referer: http://77.68.99.68/
